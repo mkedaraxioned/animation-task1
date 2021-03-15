@@ -192,7 +192,7 @@ position: absolute;
   text-align: center;
   position: absolute;
   animation: slide-right-boring-sandwich 2s forwards;
-  animation-delay: 2s;
+  animation-delay: 3s;
 }
 
 @keyframes slide-right-boring-sandwich{
@@ -215,7 +215,7 @@ position: absolute;
   right: -210px;
   position: absolute;
   animation: slide-left-sonali 2s forwards;
-  animation-delay: 5s;
+  animation-delay: 3s;
 }
 @keyframes slide-left-sonali{
   0% {
@@ -238,7 +238,7 @@ position: absolute;
     position: absolute;
   /* animation-delay: 3s; */
   animation: slide-right-happy-sandwich-bottom 10s forwards;
-  animation-delay: 6s;
+  animation-delay: 5s;
 }
 @keyframes slide-right-happy-sandwich-bottom{
   0% {
@@ -267,7 +267,7 @@ position: absolute;
   position: absolute;
   /* animation-delay: 3s; */
   animation: slide-right-happy-sandwich-veggie 10s forwards;
-  animation-delay: 6s;
+  animation-delay: 5s;
 }
 @keyframes slide-right-happy-sandwich-veggie{
   0% {
@@ -296,7 +296,7 @@ position: absolute;
   position: absolute;
   /* animation-delay: 3s; */
   animation: slide-right-happy-sandwich-top 10s forwards;
-  animation-delay: 6s;
+  animation-delay: 5s;
 }
 
 @keyframes slide-right-happy-sandwich-top{
@@ -328,7 +328,7 @@ position: absolute;
   z-index: 3;
 /* display: none; */
 animation: slide-right-happy-sandwich-knife 10s forwards;
-  animation-delay: 6s;
+  animation-delay: 5s;
 
 }
 @keyframes slide-right-happy-sandwich-knife{
@@ -359,7 +359,7 @@ animation: slide-right-happy-sandwich-knife 10s forwards;
   opacity: 0;
 /* display: none; */
 animation: slide-right-happy-sandwich-mayo 10s forwards;
-  animation-delay: 6s;
+  animation-delay: 5s;
 }
 
 @keyframes slide-right-happy-sandwich-mayo{
