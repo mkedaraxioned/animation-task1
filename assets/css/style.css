@@ -129,6 +129,7 @@ li {
   background-image: url('../../butter_assets/bg.jpg');
   position: relative;
   overflow: hidden;
+
 }
 
 .logo-img{
@@ -162,16 +163,20 @@ position: absolute;
   top: 498px;
   /* top:89.71%; */
   position: absolute;
-  animation: slide-right .5s;
-  animation-delay: 2s;
+  animation: slide-right .5s forwards;
+  /* animation-delay: 2s; */
 
 }
 @keyframes slide-right{
-  from {
+  0% {
     left:-275px;
+
   }
-  to{
+  50%{
     left: 0;
+  }
+  100%{
+    left:-275px; 
   }
 }
 .boring-sandwich{
@@ -184,15 +189,18 @@ position: absolute;
   font-size: 32px;
   text-align: center;
   position: absolute;
-  animation: slide-right-boring-sandwich 5s;
+  animation: slide-right-boring-sandwich 5s forwards;
 }
 
 @keyframes slide-right-boring-sandwich{
-  from {
+  0% {
     left:-219px;
   }
-  to{
+  50%{
     left: 0;
+  }
+  100%{
+    left:-219px;
   }
 }
 
@@ -203,14 +211,81 @@ position: absolute;
   /* top:44.96%; */
   right: 0;
   position: absolute;
-  animation: slide-left-sonali 5s;
+  animation: slide-left-sonali 5s forwards;
 }
 @keyframes slide-left-sonali{
-  from {
+  0% {
     right:-210px;
   }
-  to{
+  50%{
     right: 0;
+  }
+  100%{
+    right: -210px;
+  }
+}
+
+.sandwich-bottom-bread{
+  width: 236px;
+  height: 79px;
+  top: 495px;
+    left: -34px;
+  position: absolute;
+  /* animation-delay: 3s; */
+  animation: slide-right-happy-sandwich-bottom 5s;
+}
+@keyframes slide-right-happy-sandwich-bottom{
+  0% {
+    left:-236px;
+  }
+  10%{
+    left: 0;
+  }
+  100%{
+    left: -236px;
+  }
+}
+
+.sandwich-veggie{
+  width: 154px;
+  height: 47px;
+  top: 512px;
+    z-index: 1;
+  position: absolute;
+  /* animation-delay: 3s; */
+  animation: slide-right-happy-sandwich-veggie 5s;
+}
+@keyframes slide-right-happy-sandwich-veggie{
+  0% {
+    left:-236px;
+  }
+  10%{
+    left: 0;
+  }
+  100%{
+    left: -236px;
+  }
+}
+
+.sandwich-top-bread{
+  width: 151px;
+  height: 48px;
+  top: 497px;
+    z-index: 2;
+  position: absolute;
+  /* animation-delay: 3s; */
+  animation: slide-right-happy-sandwich-top 5s;
+}
+
+@keyframes slide-right-happy-sandwich-top{
+  0% {
+    left:-236px;
+  }
+  10%{
+    left: 0;
+  }
+  100%{
+    left: -236px;
   }
 }
 
