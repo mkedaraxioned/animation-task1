@@ -313,13 +313,18 @@ position: absolute;
   0% {
     left:-236px;
   }
-  1%{
+  10%{
     left: 0;
-  }
-  5%{
-    top: 456px;
+    top:497px;
   }
   30%{
+    /* top: 497px; */
+    top:456px;
+  }
+  /* 60%{
+    top:456px;
+  } */
+  40%{
     left: 0;
     top:497px;
   }
@@ -342,7 +347,7 @@ position: absolute;
   z-index: 3;
 /* display: none; */
 animation: slide-right-happy-sandwich-knife 3s forwards;
-  animation-delay: 5s;
+  animation-delay: 6s;
 
 }
 @keyframes slide-right-happy-sandwich-knife{
@@ -374,8 +379,8 @@ animation: slide-right-happy-sandwich-knife 3s forwards;
   z-index: 2;
   opacity: 0;
 /* display: none; */
-animation: slide-right-happy-sandwich-mayo 8.1s forwards;
-  animation-delay: 5s;
+animation: slide-right-happy-sandwich-mayo 7.1s forwards;
+  animation-delay: 6s;
   visibility: hidden;
 }
 
@@ -572,7 +577,7 @@ visibility: hidden;
   left: -139px;
   position: absolute;
   animation: slide-right-hat 2s forwards;
-  animation-delay: 17s;
+  animation-delay: 16s;
 }
 
 @keyframes slide-right-hat{
@@ -604,8 +609,8 @@ visibility: hidden;
   /* left: 76px; */
 left: -200px;
   position: absolute;
-    animation: slide-right-btn 2s forwards;
-    animation-delay: 20s;
+    animation: slide-right-btn .5s forwards;
+    animation-delay: 18s;
   
 }
 
