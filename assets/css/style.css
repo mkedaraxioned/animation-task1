@@ -250,7 +250,7 @@ position: absolute;
   animation: slide-right-happy-sandwich-bottom 9s forwards;
   animation-delay: 5s;
 }
-@keyframes slide-right-happy-sandwich-bottom{
+@keyframes slide-right-happy-sandwich-bottom {
   0% {
     left:-236px;
   }
@@ -368,12 +368,13 @@ animation: slide-right-happy-sandwich-knife 3s forwards;
   width: 140px;
   height: 36px;
   position: absolute;
-  top:509px;
+  /* top:509px; */
+  top:518px;
   left: -234px;
   z-index: 2;
   opacity: 0;
 /* display: none; */
-animation: slide-right-happy-sandwich-mayo 4s forwards;
+animation: slide-right-happy-sandwich-mayo 8.1s forwards;
   animation-delay: 5s;
   visibility: hidden;
 }
